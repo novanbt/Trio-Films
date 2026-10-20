@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5d77f" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#997e28" />
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded Gold Background -->
+  <rect width="64" height="64" rx="16" fill="url(#goldGradient)" />
+
+  <!-- Cinema Camera Icon in Dark Obsidian -->
+  <g fill="#0b0c0e">
+    <!-- Camera Body -->
+    <rect x="12" y="19" width="28" height="26" rx="5" />
+    
+    <!-- Camera Lens Cone -->
+    <path d="M43 25.5 L53 19.5 C54.5 18.5 56 19.5 56 21.2 L56 42.8 C56 44.5 54.5 45.5 53 44.5 L43 38.5 Z" />
+  </g>
+</svg>
